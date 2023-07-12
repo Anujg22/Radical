@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Proj {
     @GetMapping("/myproj")
     public String getData(){
-        return "Devops is a mixture of Develoment and Operations team";
+        return "Devops is a mixture of Develoment, testing and operations team";
     }
 }
