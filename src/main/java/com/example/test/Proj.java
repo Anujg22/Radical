@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Proj {
     @GetMapping("/myproj")
     public String getData(){
-        return "We are learning devops in aws and azure";
+        return "We are building pipline";
     }
 }
